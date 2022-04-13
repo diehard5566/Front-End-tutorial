@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatPhotoAPPs</title>
+</head>
+
+<body>
+    <h2>CatPhotoApp</h2>
+    <main>
+        <h3>Cat Photo</h3>
+        <!-- TODO Add link to cat photo -->
+        <p>Click here to view more <a href="#" target="_blank">Cat Photos</a> !</p>
+        <a href="#"><img
+                src="https://static.wikia.nocookie.net/meme/images/d/d7/Mur_meme_wiki.png/revision/latest/scale-to-width-down/700?cb=20200324114533&path-prefix=zh-tw"
+                alt="cat meme" /></a>
+        <h3>Cat Lists</h3>
+        <div class="lists">
+            <p>Thing Cat <em>love</em>s:</p>
+            <ul>
+                <li>nip</li>
+                <li>play</li>
+                <li>being cute</li>
+            </ul>
+            <img src="cat_(aka).jpg" alt="cute" />
+            <p>Thing cats <strong>hate</strong>:</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+        <img src="cat.jpeg" alt="Cats" />
+        <form action="/sumit-cat-photo">
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked /> indoor</label><br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" /> outdoor</label><br>
+            <label for="loving"> <input id="loving" type="checkbox" name="personality" checked> Loving</label><br>
+            <label for="lazy"> <input id="lazy" type="checkbox" name="personality"> Lazy</label><br>
+            <label for="energetic"> <input id="energetic" type="checkbox" name="personality"> Energetic</label><br>
+            <input type="text" placeholder="cat photo URL" />
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>No Copyright - <a href="https://freeCodeCamp.org">freeCodeCamp.org</a> </p>
+    </footer>
+</body>
+
+</html>
